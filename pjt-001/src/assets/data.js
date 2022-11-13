@@ -4,7 +4,8 @@ export default [{
     image: "https://p4.wallpaperbetter.com/wallpaper/193/562/539/the-city-canada-vancouver-wallpaper-preview.jpg",
     area: '115 km²',
     population: '675,218',
-    province: 'British Columbia'
+    province: 'British Columbia',
+    like : 0,
     },
     {
     id : 1,
@@ -12,7 +13,8 @@ export default [{
     image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpnJ9Cl_9yyfyl1fU-6GuXBooa-c00Z4nWMfo-dpJG6Ac0YbLAOaNas6R7cfjKLZVOnjg&usqp=CAU',
     area: '630.2 km²',
     population: "2.93 million",
-    province: 'Ontario'
+    province: 'Ontario',
+    like : 0,
     },
     {
     id : 2,
@@ -20,7 +22,8 @@ export default [{
     image: 'http://www.uhaknet.co.kr/data/cheditor4/1505/dsmSk4ijDesgBeMSV.jpg',
     area: '431.5 km²',
     population: "1.78 million",
-    province: 'Quebec'
+    province: 'Quebec',
+    like : 0,
     },
     {
     id : 3,
@@ -28,7 +31,8 @@ export default [{
     image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQM_2xG7DjhRjLvtE_qwVsCG8VFQF90PpaZfS3w1JjqrIzh8ftFf7_QroXgmgJ13HfJcIw&usqp=CAU',
     area: '2,790 km²',
     population: "994,837 (2017)",
-    province: 'Ontario'
+    province: 'Ontario',
+    like : 0,
     },
     {
     id : 4,
@@ -36,7 +40,8 @@ export default [{
     image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSd55KK3T_YGgaaLtYExEP5Bz-CeIxvh6CT2vXcQRq1e1KgqwrbfYiaX89rdCbG-vOkAQ&usqp=CAU',
     area: '825.3 km²',
     population: "1.336 million",
-    province: 'Alberta'
+    province: 'Alberta',
+    like : 0,
     },
     {
     id : 5,
@@ -44,7 +49,8 @@ export default [{
     image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtbXASqSUhyndAkNz1-t3tFDNDCYsRfWjI9TnaDC56Ujd4Pf7ykFgH2Azo4RU1U5NQCH8&usqp=CAU',
     area: '684.4 km²',
     population: "981,280",
-    province: 'Alberta'
+    province: 'Alberta',
+    like : 0,
   }];
 
 

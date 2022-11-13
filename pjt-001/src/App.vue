@@ -56,7 +56,7 @@ export default {
   },
   methods : {
     increase(idx){
-      this.cities[idx].like += 1
+      this.citiesData[idx].like += 1
     }
   },
   components: {

@@ -6,6 +6,8 @@
       <p>Area : {{ citiesData[clickNum].area }}</p>
       <p>Population : {{ citiesData[clickNum].population }}</p>
       <p>Province : {{ citiesData[clickNum].province }}</p>
+
+      <!-- props is read only -->
       <!-- <button @click="modalOpen=false">닫기</button> -->
     </div>
   </div>

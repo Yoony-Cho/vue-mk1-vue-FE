@@ -1,19 +1,12 @@
 <template>
-  <div class="black-bg" v-if="modalOpen" @click="modalOpen=false">
-    <div class="white-bg">
-      <h4>{{ citiesData[clickNum].name }}</h4>
-      <img :src="citiesData[clickNum].image">
-      <p>Area : {{ citiesData[clickNum].area }}</p>
-      <p>Population : {{ citiesData[clickNum].population }}</p>
-      <p>Province : {{ citiesData[clickNum].province }}</p>
-      <button @click="modalOpen=false">닫기</button>
-    </div>
-  </div>
-
   <div>
     <div class="nav-bar">
       <a v-for="menu in menus" :key="menu"> {{menu}} </a>
     </div>
+
+    <NoticeMsg/>
+    <DetailModal :citiesData="citiesData" :clickNum="clickNum" :modalOpen="modalOpen"/>
+
     <div class="main-container">
       <div class="item-container" v-for="(city, idx) in citiesData" :key="idx">
         <img :src="city.image" class="imgs" @click="modalOpen=true; clickNum = idx">
@@ -31,6 +24,8 @@
 <script>
 
 import dataSet from './assets/data'
+import NoticeMsg from './NoticeMsg.vue'
+import DetailModal from './DetailModal.vue'
 
 export default { 
   name: 'App',
@@ -60,6 +55,8 @@ export default {
     }
   },
   components: {
+    NoticeMsg,
+    DetailModal,
   }
 }
 </script>
@@ -79,6 +76,7 @@ body {
 div {
   box-sizing: border-box;
 }
+
 .black-bg {
   width: 100%; 
   height:100%;

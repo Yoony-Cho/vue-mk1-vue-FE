@@ -9,6 +9,7 @@
 
       <!-- props is read only -->
       <!-- <button @click="modalOpen=false">닫기</button> -->
+      <button @click="$emit('closeModal')">닫기</button>
     </div>
   </div>
 </template>

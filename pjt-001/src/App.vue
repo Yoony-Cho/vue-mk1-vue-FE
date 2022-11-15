@@ -5,7 +5,7 @@
     </div>
 
     <NoticeMsg/>
-    <DetailModal :citiesData="citiesData" :clickNum="clickNum" :modalOpen="modalOpen"/>
+    <DetailModal @closeModal="modalOpen=false" :citiesData="citiesData" :clickNum="clickNum" :modalOpen="modalOpen"/>
 
     <div class="main-container">
       <div class="item-container" v-for="(city, idx) in citiesData" :key="idx">
